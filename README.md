@@ -23,7 +23,7 @@ TGCN - Los-Loop            | cVTGCN - Los-Loop
 
 * [PyTorch](https://pytorch.org/) - Deep Learning Framework
 * [SpatioTemporal Neural Networks](https://github.com/andrea-cavallo-98/STVNN)
-* [TGCN]([https://huggingface.co/](https://github.com/lehaifeng/T-GCN/tree/master))
+* [TGCN]([https://huggingface.co/](https://github.com/lehaifeng/T-GCN/tree/master)
 
 
 ## Authors
