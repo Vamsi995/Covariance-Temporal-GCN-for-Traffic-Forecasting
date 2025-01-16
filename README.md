@@ -1,6 +1,57 @@
 # Covariance-Temporal-GCN-for-Traffic-Forecasting
 
-This work presents a novel approach for traffic foreasting, that leverages covariance based temporal embeddings in the data to create a graph filter to prune influential nodes from previous timestep. This is combined with graph convolutions to enhance spatio-temporal learning. 
+A cutting-edge traffic prediction model leveraging temporal graph structures to model spatial and temporal dependencies within traffic networks. This framework utilizes covariance-driven feature analysis, eigenvalue decomposition, and attention mechanisms to capture dynamic patterns, enabling accurate and scalable traffic forecasting. Tested on real-world datasets like SZ-Taxi and Los-Loop, it outperforms traditional models in accuracy and robustness. You can access the project report [here](/Project%20Report.pdf).
+
+
+## Getting Started
+Follow the steps below to run this project locally for development and testing.
+
+### Prerequisites
+Ensure the following libraries and frameworks are installed:
+
+- PyTorch
+- NumPy
+- Matplotlib
+
+
+### Installation
+- Clone the repository:
+
+```bash
+git clone https://github.com/Vamsi995/Covariance-Temporal-GCN-for-Traffic-Forecasting.git
+cd Covariance-Temporal-GCN-for-Traffic-Forecasting
+```
+
+- Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+
+- Train and evaluate the model:
+
+```bash
+python train.py --config configs/sz_taxi.json
+```
+
+- Run evaluations:
+
+```bash
+python evaluate.py --dataset los_loop --model cVTGCN 
+```
+
+### Datasets
+The model is validated on:
+
+- **SZ-Taxi**: 156 major roads in Shenzhen, traffic speeds sampled every 15 minutes.
+- **Los-Loop**: 207 sensors in Los Angeles highways, data sampled every 5 minutes.
+
+SZ-Taxi                    | Los-Loop 
+:-------------------------:|:-------------------------:
+![](images/time_series_sz_taxi.png) | ![](images/time_series_los_loop.png)
+
+
 
 ## Results
 
