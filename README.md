@@ -1,6 +1,9 @@
 # Covariance-Temporal-GCN-for-Traffic-Forecasting
 
-A cutting-edge traffic prediction model leveraging temporal graph structures to model spatial and temporal dependencies within traffic networks. This framework utilizes covariance-driven feature analysis, eigenvalue decomposition, and attention mechanisms to capture dynamic patterns, enabling accurate and scalable traffic forecasting. Tested on real-world datasets like SZ-Taxi and Los-Loop, it outperforms traditional models in accuracy and robustness. You can access the project report [here](/Project%20Report.pdf).
+A cutting-edge traffic prediction model leveraging temporal graph structures to model spatial and temporal dependencies within traffic networks. This framework utilizes covariance-driven feature analysis, eigenvalue decomposition, and attention mechanisms to capture dynamic patterns, enabling accurate and scalable traffic forecasting. Tested on real-world datasets like SZ-Taxi and Los-Loop, it outperforms traditional models in accuracy and robustness. 
+
+Project Report: [Report](/Project%20Report.pdf)
+Project Slide Deck: [Slides](https://docs.google.com/presentation/d/1Xiw7c_LlMP7tDnOEiedzYKLrP7Bj9h6jRilL-eaNb5k/edit?usp=sharing)
 
 
 ## Getting Started
