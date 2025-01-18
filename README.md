@@ -32,13 +32,13 @@ pip install -r requirements.txt
 - Train and evaluate the model:
 
 ```bash
-python train.py --config configs/sz_taxi.json
+python train.py --config los_loop --hidden_dim 32 --epochs 100
 ```
 
 - Run evaluations:
 
 ```bash
-python evaluate.py --dataset los_loop --model cVTGCN 
+python evaluate.py --dataset sz_taxi --hidden_dim 32 --weights_path ../cvtgcn.pkl
 ```
 
 ### Datasets
